@@ -3,32 +3,32 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fitness App - Progress</title>
+  <title>Fitness App - Workouts</title>
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body class="progress">
+<body class="workouts">
   <nav>
     <ul>
       <li><a href="index.html">Home</a></li>
-      <li><a href="workouts.html">Workouts</a></li>
+      <li><a href="workouts.html" class="active">Workouts</a></li>
       <li><a href="meals.html">Meals</a></li>
-      <li><a href="progress.html" class="active">Progress</a></li>
+      <li><a href="progress.html">Progress</a></li>
     </ul>
   </nav>
 
   <section class="hero">
-    <h1>Progress Tracking</h1>
-    <p>Monitor your fitness journey and achievements.</p>
+    <h1>Workout Tracker</h1>
+    <p>Stay consistent and push your limits!</p>
   </section>
 
   <section class="content">
-    <h2>Weight Progress</h2>
+    <h2>Weekly Workouts</h2>
     <div class="card">
-      <canvas id="progressChart"></canvas>
+      <canvas id="workoutChart"></canvas>
     </div>
   </section>
 
-  <!-- Chart.js and custom script -->
+  <!-- Chart.js and script -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script src="assets/js/script.js"></script>
 </body>

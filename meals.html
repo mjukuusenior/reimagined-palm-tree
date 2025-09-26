@@ -3,46 +3,43 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Meals - My Personal Fitness App</title>
-  <link rel="stylesheet" href="Assets/css/style.css">
+  <title>Fitness App - Meals</title>
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
-  <p>Image path test:</p>
-<img src="Assets/images/meal1.jpg" alt="test meal image">
+<body class="meals">
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="workouts.html">Workouts</a></li>
+      <li><a href="meals.html" class="active">Meals</a></li>
+      <li><a href="progress.html">Progress</a></li>
+    </ul>
+  </nav>
 
-  <!-- Header -->
-  <header>
-    <h1>My Personal Fitness App</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="fitness.html">Fitness</a></li>
-        <li><a href="meal.html" class="active">Meals</a></li>
-        <li><a href="workout.html">Workouts</a></li>
-        <li><a href="progress.html">Progress</a></li>
-      </ul>
-    </nav>
-  </header>
+  <section class="hero">
+    <h1>Meal Plans</h1>
+    <p>Nutritious and delicious meals to fuel your workouts.</p>
+  </section>
 
-  <!-- Meals Section -->
-  <main>
-    <section class="meals">
-      <h2>Healthy Meal Plans</h2>
-      <p>Discover nutritious meal options to boost your fitness journey.</p>
-      
+  <section class="content">
+    <h2>Healthy Meals</h2>
 
-      <div class="meals-gallery">
-        <img src="Assets/images/meal1.jpg" alt="Healthy meal">
-<img src="Assets/images/meal2.jpg" alt="Energy smoothie">
-      </div>
-    </section>
-  </main>
+    <div class="card">
+      <img src="assets/images/salad.jpg" alt="Salad">
+      <h3>Fresh Salad</h3>
+      <p>Packed with vitamins and minerals to keep you energized.</p>
+    </div>
 
-  <!-- Footer -->
-  <footer>
-    <p>&copy; 2025 My Personal Fitness App. All rights reserved.</p>
-  </footer>
-
-  <script src="Assets/js/script.js"></script>
+    <div class="card">
+      <img src="assets/images/chicken.jpg" alt="Grilled Chicken">
+      <h3>Grilled Chicken</h3>
+      <p>Lean protein to support muscle growth and recovery.</p>
+    </div>
+    <div class="card">
+  <h3>Nutrition Breakdown</h3>
+  <canvas id="nutritionChart"></canvas>
+</div>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </body>
 </html>

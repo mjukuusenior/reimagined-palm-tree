@@ -3,38 +3,64 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Personal Fitness App</title>
-  <!-- Link CSS -->
-  <link rel="stylesheet" href="Assets/css/style.css">
+  <title>Fitness App - Home</title>
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-  <!-- Header -->
-  <header>
-    <h1>Welcome to My Personal Fitness App</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="fitness.html">Fitness</a></li>
-        <li><a href="meal.html">Meals</a></li>
-        <li><a href="workout.html">Workouts</a></li>
-        <li><a href="progress.html">Progress</a></li>
-      </ul>
-    </nav>
-  </header>
+  <body class="home">
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="workouts.html">Workouts</a></li>
+      <li><a href="meals.html">Meals</a></li>
+      <li><a href="progress.html">Progress</a></li>
+    </ul>
+  </nav>
 
-  <!-- Hero Section -->
-  <section class="hero">
-    <img src="Assets/images/fitness.jpg" alt="Fitness" class="responsive-img">
-    <h2>Start Your Fitness Journey Today!</h2>
-    <p>Track your meals, workouts, and progress — all in one place.</p>
+  <!-- Hero -->
+  <section class="content dashboard">
+  <h2>Welcome to Your Fitness Journey</h2>
+  <p>Track workouts, meals, and progress in one place.</p>
+
+  <div class="dashboard-cards">
+    <div class="card stat-card">
+      <h3>245</h3>
+      <p>Minutes This Week</p>
+    </div>
+    <div class="card stat-card">
+      <h3>2,100</h3>
+      <p>Calories Today</p>
+    </div>
+    <div class="card stat-card">
+      <h3>72.5 kg</h3>
+      <p>Current Weight</p>
+    </div>
+  </div>
+</section>
+
+  <!-- Features Section -->
+  <section class="features">
+    <div class="card">
+      <h3>Workouts</h3>
+      <p>Simple exercises to stay fit.</p>
+      <a href="workouts.html">Explore Workouts →</a>
+    </div>
+    <div class="card">
+      <h3>Meals</h3>
+      <p>Nutritious meal plans and ideas.</p>
+      <a href="meals.html">View Meals →</a>
+    </div>
+    <div class="card">
+      <h3>Progress</h3>
+      <p>Track your progress over time.</p>
+      <a href="progress.html">Check Progress →</a>
+    </div>
   </section>
 
   <!-- Footer -->
   <footer>
-    <p>&copy; 2025 My Personal Fitness App. All rights reserved.</p>
+    <p>© 2025 Fitness App</p>
   </footer>
-
-  <!-- Link JS -->
-  <script src="Assets/js/script.js"></script>
 </body>
 </html>

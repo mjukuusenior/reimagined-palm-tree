@@ -3,43 +3,49 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fitness - My Personal Fitness App</title>
-  <link rel="stylesheet" href="Assets/css/style.css">
+  <title>Fitness App - Fitness</title>
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
-  <!-- Header -->
-  <header>
-    <h1>My Personal Fitness App</h1>
+  <!-- Navbar -->
+  <header class="navbar">
+    <h1 class="logo">Fitness App</h1>
     <nav>
-      <ul>
+      <ul class="nav-links">
         <li><a href="index.html">Home</a></li>
         <li><a href="fitness.html" class="active">Fitness</a></li>
-        <li><a href="meal.html">Meals</a></li>
         <li><a href="workout.html">Workouts</a></li>
+        <li><a href="meals.html">Meals</a></li>
         <li><a href="progress.html">Progress</a></li>
       </ul>
     </nav>
   </header>
 
-  <!-- Fitness Section -->
+  <!-- Main Content -->
   <main>
-    <section class="fitness">
-      <h2>Fitness Goals</h2>
-      <p>Track your daily fitness routines and stay motivated.</p>
+    <section class="hero">
+      <h2>About Fitness</h2>
+      <p>Learn the importance of staying active, eating well, and keeping balance in your daily routine.</p>
+    </section>
 
-      <div class="fitness-gallery">
-        <img src="Assets/images/fitness.jpg" alt="Fitness">
-        <img src="Assets/images/pushup.jpg" alt="Pushup workout">
+    <section class="features">
+      <div class="card">
+        <h3>💡 Tips</h3>
+        <p>Stay hydrated, get enough rest, and maintain consistency.</p>
+      </div>
+      <div class="card">
+        <h3>🕒 Routine</h3>
+        <p>Follow a weekly plan with cardio, strength, and flexibility workouts.</p>
       </div>
     </section>
   </main>
 
   <!-- Footer -->
-  <footer>
-    <p>&copy; 2025 My Personal Fitness App. All rights reserved.</p>
+  <footer class="footer">
+    <p>© 2025 My Fitness App. Built with ❤️ for learning.</p>
   </footer>
 
-  <script src="Assets/js/script.js"></script>
+  <script src="assets/js/script.js"></script>
 </body>
 </html>
